@@ -1,6 +1,2 @@
-gcloud GROUP | COMMAND [--account=ACCOUNT] [--billing-project=BILLING_PROJECT] 
-[--configuration=CONFIGURATION] [--flags-file=YAML_FILE] [--flatten=[KEY,…]] 
-[--format=FORMAT] [--help] [--project=PROJECT_ID] [--quiet, -q] [--verbosity=VERBOSITY; 
-default="warning"] [--version, -v] [-h] [--access-token-file=ACCESS_TOKEN_FILE] 
-[--impersonate-service-account=SERVICE_ACCOUNT_EMAILS] [--log-http]
- [--trace-token=TRACE_TOKEN] [--no-user-output-enabled]
+gcloud services list [--available     | --enabled] [--filter=EXPRESSION] [--limit=LIMIT] 
+[--page-size=PAGE_SIZE; default=200] [--sort-by=[FIELD,…]] [GCLOUD_WIDE_FLAG …]
